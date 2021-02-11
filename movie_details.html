@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/movie-details.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <title>StreamFlix-Fariz | Best movie shop on planet</title>
+    </head>
+    <body>
+        <!-- Overlay Header Nav -->
+        <div id="mobile__nav" class="overlay">
+            <div class="overlay__content">
+                <a class="mobile__link" href="#" onclick="handle()">Movies</a>
+                <a class="mobile__link" href="#" onclick="handle()">Favorite</a>
+                <a class="mobile__link" href="#" onclick="handle()">My List</a>
+            </div>
+        </div>
+        <!-- Burger Menu -->
+        <div class="burger-menu" onclick="handle()">
+            <div class="burger-line line1"></div>
+            <div class="burger-line line2"></div>
+            <div class="burger-line line3"></div>
+        </div>
+        <header class="header">
+            <nav class="header-nav">
+                <div class="container">
+                    <div class="nav-logo">
+                        <a href="./index.html" class="logo"><span class="logo-span">Stream</span>Flix-Fariz</a>
+                    </div>
+                    <div class="nav-menu">
+                        <a href="#" class="menu">Movies</a>
+                        <a href="#" class="menu">Favorite</a>
+                        <a href="#" class="menu">My List</a>
+                    </div>
+                    <div class="nav-account">
+                        <div class="nav-account-info">
+                            <p class="info-text">Your Balance</p>
+                            <p class="info-balance">Rp 100.000</p>
+                        </div>
+                        <div class="nav-account-user">
+                            <img src="./assets/user_profile.svg" alt="user profile picture" class="user-profile" />
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main main-movie-details"></main>
+
+        <script src="./js/movie_details.js"></script>
+    </body>
+</html>

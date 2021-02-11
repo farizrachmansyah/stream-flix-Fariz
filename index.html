@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <title>StreamFlix-Fariz | Best movie shop on planet</title>
+    </head>
+    <body>
+        <!-- Overlay Header Nav -->
+        <div id="mobile__nav" class="overlay">
+            <div class="overlay__content">
+                <a class="mobile__link" href="#" onclick="handle()">Movies</a>
+                <a class="mobile__link" href="#" onclick="handle()">Favorite</a>
+                <a class="mobile__link" href="#" onclick="handle()">My List</a>
+            </div>
+        </div>
+        <!-- Burger Menu -->
+        <div class="burger-menu" onclick="handle()">
+            <div class="burger-line line1"></div>
+            <div class="burger-line line2"></div>
+            <div class="burger-line line3"></div>
+        </div>
+        <header class="header">
+            <nav class="header-nav">
+                <div class="container">
+                    <div class="nav-logo">
+                        <a href="./index.html" class="logo"><span class="logo-span">Stream</span>Flix-Fariz</a>
+                    </div>
+                    <div class="nav-menu">
+                        <a href="#" class="menu">Movies</a>
+                        <a href="#" class="menu">Favorite</a>
+                        <a href="#" class="menu">My List</a>
+                    </div>
+                    <div class="nav-account">
+                        <div class="nav-account-info">
+                            <p class="info-text">Your Balance</p>
+                            <p class="info-balance">Rp 100.000</p>
+                        </div>
+                        <div class="nav-account-user">
+                            <img src="./assets/user_profile.svg" alt="user profile picture" class="user-profile" />
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-hero container">
+                <h1 class="hero-title">Welcome to the most affordable movies selling website</h1>
+                <p class="hero-subtitle">Find lots of movies you like, and watch them legally at affordable prices.</p>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-featured">
+                    <p class="featured-text">Indonesia</p>
+                    <p class="featured-subtext"><strong>Now</strong> Showing</p>
+                </div>
+                <div class="main-contents"></div>
+            </div>
+
+            <!-- Loading Animation -->
+            <div class="loading-animation">
+                <div class="loading-ball first-ball"></div>
+                <div class="loading-ball second-ball"></div>
+                <div class="loading-ball third-ball"></div>
+            </div>
+        </main>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
